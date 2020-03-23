@@ -17,7 +17,7 @@ module.exports = {
           allowNull: false,
          },
          num_casa: {
-           type: Sequelize.NUMBER,
+           type: Sequelize.STRING,
            allowNull: false,
          },
          telefone: {
@@ -32,18 +32,6 @@ module.exports = {
            type: Sequelize.STRING,
            allowNull: false,
          },
-         provider: {
-           type: Sequelize.BOOLEAN,
-           allowNull: true,
-         },
-         created_at: {
-          type: Sequelize.DATE,
-          allowNull: false,
-         },
-         updated_at: {
-           type: Sequelize.DATE,
-           allowNull: false,
-         }
     });
   },
 
