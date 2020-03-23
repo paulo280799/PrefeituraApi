@@ -1,3 +1,5 @@
+import sequelize from 'sequelize';
+
 module.exports = {
   dialect: 'mysql',
   host: '127.0.0.1',
